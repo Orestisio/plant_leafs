@@ -1,0 +1,27 @@
+,Folder,Counts,Plants,Sub,MeanCategory,split_size,train_files,Augment_Needed,original_files
+0,Cherry_(including_sour)___Powdery_mildew,1052,Cherry,Powdery_mildew,Below_mean,200,652,553,37
+1,Corn_(maize)___Common_rust_,1192,Corn,Common_rust_,Below_mean,200,792,413,28
+2,Corn_(maize)___Northern_Leaf_Blight,985,Corn,Northern_Leaf_Blight,Below_mean,200,585,620,42
+3,Corn_(maize)___healthy,1162,Corn,healthy,Below_mean,200,762,443,30
+4,Grape___Black_rot,1180,Grape,Black_rot,Below_mean,200,780,425,29
+5,Grape___Esca_(Black_Measles),1383,Grape,Esca_(Black_Measles),Above_mean,200,602,603,41
+6,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),1076,Grape,Leaf_blight_(Isariopsis_Leaf_Spot),Below_mean,200,676,529,36
+7,Grape___healthy,423,Grape,healthy,Risk,100,223,982,66
+8,Peach___Bacterial_spot,2297,Peach,Bacterial_spot,Above_mean,200,602,603,41
+9,Peach___healthy,360,Peach,healthy,Risk,100,160,1045,70
+10,"Pepper,_bell___Bacterial_spot",997,"Pepper,",Bacterial_spot,Below_mean,200,597,608,41
+11,"Pepper,_bell___healthy",1478,"Pepper,",healthy,Above_mean,200,602,603,41
+12,Strawberry___Leaf_scorch,1109,Strawberry,Leaf_scorch,Below_mean,200,709,496,34
+13,Strawberry___healthy,456,Strawberry,healthy,Risk,100,256,949,64
+14,Tomato___Bacterial_spot,2127,Tomato,Bacterial_spot,Above_mean,200,602,603,41
+15,Tomato___Early_blight,1000,Tomato,Early_blight,Below_mean,200,600,605,41
+16,Tomato___Late_blight,1909,Tomato,Late_blight,Above_mean,200,602,603,41
+17,Tomato___Leaf_Mold,952,Tomato,Leaf_Mold,Below_mean,200,552,653,44
+18,Tomato___Septoria_leaf_spot,1771,Tomato,Septoria_leaf_spot,Above_mean,200,602,603,41
+19,Tomato___Spider_mites Two-spotted_spider_mite,1676,Tomato,Spider_mites Two-spotted_spider_mite,Above_mean,200,602,603,41
+20,Tomato___Target_Spot,1404,Tomato,Target_Spot,Above_mean,200,602,603,41
+21,Tomato___healthy,1591,Tomato,healthy,Above_mean,200,602,603,41
+22,Apple___Apple_Scab,630,Apple,Apple_Scab,Below_mean,200,230,975,65
+23,Apple___Black_Rot,621,Apple,Black_Rot,Below_mean,200,221,984,66
+24,Apple___Healthy,1645,Apple,Healthy,Above_mean,200,602,603,41
+25,Cherry_(including_sour)___Healthy,854,Cherry,Healthy,Below_mean,200,454,751,51
