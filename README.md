@@ -7,7 +7,7 @@ We are parsing the root location of our dataset and extract the
 *  The total amount of files for each folder.
 
 
-## Dataset Exploration and preparation.
+## [Dataset Exploration and preparation](https://github.com/Orestisio/plant_leafs/tree/main/Prepare%20Dataset).
 We perform Exploratory Data Analysis (EDA) to be acquainted with our dataset. 
 We identify specific Plant and labels that don't have enough files in order to split to _validation_ and _test sets_ and are removed.
 
@@ -20,5 +20,10 @@ We have 8 Plant species and 26 categories which may include _One or more_ __Dise
 
 Each label of the dataset is splited by ~40% of a value that the user choose from, in this case I choose the __mean__ value.
 >  Validation splitof 20% and Test split of 20%. Labels that had not enough files for the full split we choose the half of that value.
-> The amount of split was rounded down. In this case a choice has been made to be rounded from 241 to __200__.
+
+Original images from each label are taken and are used for augentation. The augmentations are responsible to mimic __weather__, __light conditions__.
+Each image will be passed by __3 Augmentation functions__:
+1.  Weather transformations
+2.  Light transformations
+3.  Geometrical transformations.
 
