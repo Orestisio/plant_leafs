@@ -14,6 +14,10 @@ We identify specific Plant and labels that don't have enough files in order to s
 The dataset imbalance is _61%_ with 16 labels __below__ the mean value or at __risk__ and 11 labels of 5 Plant species occuping a file distribution below of 10% of the total distribution.
 > Risk being vaues that __lower__ than the _half of the mean_.
 
+![Screenshot 2025-03-07 112243](https://github.com/user-attachments/assets/ff8474b3-7437-4c02-ad6a-b96bbfa4891c)
+
+
+
 We have 8 Plant species and 26 categories which may include _One or more_ __Disease__ and one __Healthy__ category.
 
 ![File and Category distribution](https://github.com/user-attachments/assets/4f5355b1-ae09-4676-beec-a461ebd70003)
@@ -27,3 +31,4 @@ Each image will be passed by __3 Augmentation functions__:
 2.  Light transformations
 3.  Geometrical transformations.
 
+## Model Definition and Creation
