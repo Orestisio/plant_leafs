@@ -1,10 +1,11 @@
 # Multi-classification of Plant Leaf Images 
-Multi-classification of plant diseases based on cut leaf images. 
-
-We are parsing the root location of our dataset and extract the 
-*  Folder names(labels)
-*  File_paths
-*  The total amount of files for each folder.
+Multi-classification of plant diseases based on cut leaf images.
+*  Data Preparation
+*  Model Definition
+*  Folder __Modules__ if we want to package our Functionalities.
+*  Kaggle: a single script that has all the processes & functionalities to run the hole project
+    *  Data is already processed and prepared to ready to go splits stored in Kaggle, here we just __LOAD__
+    *  Here we have a simple function to load & prepare specific collection of models
 
 
 ## [Dataset Exploration and preparation](https://github.com/Orestisio/plant_leafs/tree/main/Prepare%20Dataset).
@@ -23,4 +24,10 @@ The dataset imbalance is _61%_ with 16 labels __below__ the mean value or at __r
 
 ![Screenshot 2025-03-07 112243](https://github.com/user-attachments/assets/ff8474b3-7437-4c02-ad6a-b96bbfa4891c)
 
-## Model Definition and Creation
+## [Model Definition and Creation](https://github.com/Orestisio/plant_leafs/blob/main/Models).
+A modular deep learning experimentation framework to generate multiple model variations automatically 
+*  Select from Pretrained CNN Backbones 
+*  Addition of Custom classification "heads"
+*  Optionaly load architectures/weights from files 
+*  Automated experimentation and benchmarking workflows
+
