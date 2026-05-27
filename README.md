@@ -31,3 +31,12 @@ A modular deep learning experimentation framework to generate multiple model var
 *  Optionaly load architectures/weights from files 
 *  Automated experimentation and benchmarking workflows
 
+##   [Kaggle](https://www.kaggle.com/code/creativetank/plant-leafs)
+Here we have a single script that runs the hole project with all the final outputs.
+The data preparation already took place and the new splits are stored in Kaggle ready to be loaded.
+>   Code that is wraped in comments is the trial of streamlinng the Augmentantion process while loading data to train the model.
+> It was not 100% succesful or efficient at that moment thus is frozen.
+The models are defined , created and compiled. They are splited in groups in order to produce answers to different questions.
+Then __training__ takes place and we __evaluate__  our models with unseen data.
+> Confusion matrix with other graphs have been produced
+
