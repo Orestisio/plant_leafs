@@ -1,3 +1,9 @@
+The dataset imbalance is _61%_ with 16 labels __below__ the mean value or at __risk__ and 11 labels of 5 Plant species occuping a file distribution below of 10% of the total distribution.
+> Risk being vaues that __lower__ than the _half of the mean_.
+
+![Screenshot 2025-03-07 112243](https://github.com/user-attachments/assets/ff8474b3-7437-4c02-ad6a-b96bbfa4891c)
+
+
 We have 8 Plant species and 26 categories which may include _One or more_ __Disease__ and one __Healthy__ category.
 
 ![File and Category distribution](https://github.com/user-attachments/assets/4f5355b1-ae09-4676-beec-a461ebd70003)
@@ -22,12 +28,13 @@ Each Augmentation produce different transformations:
 2. Light -> Multiplicative noise, Grid Cutout
 3. Geometrical -> CLAHE, Horizontal, Vertical Flip
 
-each run does not produce same outcome and through the pipeline we do a round of 5 runs. 
+each run does not produce same outcome, through the pipeline we do a round of 5 runs. 
 
 This means that if we pass 1 image through our pipeline we produce 15 new images.
 ![Screenshot 2025-03-07 130233](https://github.com/user-attachments/assets/ecc27694-1185-4034-96d3-d34e30e21fee)
 
-# Furthermore the file includes specific functionalities
+The Folder contains two main files: 
+##   Dataset Utilities 
 *  The parsing of specific root path and the creation of 2 items:
     * A dictionary of __keys: Folder names__ and __values: file paths__
     * A Dataframe that stores all the statistics about our dataset and will dictate the course of __augmentation__, __split__.
@@ -36,3 +43,12 @@ This means that if we pass 1 image through our pipeline we produce 15 new images
     *  Storing locally the dataset splits with the _train split_ __including the augmented images__! For futureloading and experiments
     *  Processing the hole dataset and augmentation in one run(one execution) through streaming of the augmentation process and avoiding of crashing due to RAM!
        _The user can change the augmentation process to his own by providing his own generator!_
+##  Graphs
+*   Creation of Bar graphs for:
+     *   Distribution of Files across Folders
+     *   Augmented Images in need of satisfactory amount
+*   Creation of Pie graphs for:
+     *   Category and Plant wise distributions
+     *   File distribution per Plant
+*   Experimentation with Parallel Coordinates for:
+     * Projection of Model Architection 
