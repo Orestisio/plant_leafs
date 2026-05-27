@@ -3,7 +3,7 @@ Multi-classification of plant diseases based on cut leaf images.
 *  Data Preparation
 *  Model Definition
 *  Folder __Modules__ if we want to package our Functionalities.
-*  Kaggle: a single script that has all the processes & functionalities to run the hole project
+*  [Kaggle](https://www.kaggle.com/code/creativetank/plant-leafs): a single script that has all the processes & functionalities to run the hole project
     *  Data is already processed and prepared to ready to go splits stored in Kaggle, here we just __LOAD__
     *  Here we have a simple function to load & prepare specific collection of models
 
